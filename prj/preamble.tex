@@ -1,0 +1,17 @@
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\theoremstyle{definition}
+\newtheorem{theorem}{定理}
+
+\usepackage[backend=biber,style=alphabetic-verb]{biblatex}
+\usepackage{blindtext, bxjalipsum}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+}
+\renewcommand{\theoremautorefname}{定理}
+
+\usepackage{subfiles}
+\addbibresource{\subfix{reference.bib}}
